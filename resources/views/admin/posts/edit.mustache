@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>Clojure Blog</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Editing Post</h1>
+      <form action="/admin/posts/{{post.id}}/save" method="post">
+        <label for="title">Title</label>
+        <input name="title" value="{{post.title}}"/><br />
+        <label for="body">Body</label>
+        <textarea name="body">{{post.body}}</textarea> <br/>
+        <input type="submit"/>
+      </form>
+    </div>
+  </body>
+</html>

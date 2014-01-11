@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Hello World</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Listing Posts</h1>
+            <a href="/admin/posts/new">Add</a>
+            <sections>
+            {{#posts}}
+              <h2><a href="/admin/posts/{{id}}">{{title}}</a></h2>
+              <datetime>{{created_at}}</datetime>
+              <p>{{body}}<p>
+              <p>
+                <a href="/admin/posts/{{id}}/edit">Edit</a>
+                <a href="/admin/posts/{{id}}/delete">Delete</a>
+              </p>              
+            {{/posts}}
+            </sections>
+        </div>
+    </body>
+</html>
