@@ -6,7 +6,7 @@
 (def mysql-db {:subprotocol "mysql"
                :subname "//localhost:3306/blog"
                :user "root"
-               :pass " "
+               :password " "
                :zeroDateTimeBehaviour "convertToNull"})
 
 (def now
