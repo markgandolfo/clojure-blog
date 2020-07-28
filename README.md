@@ -1,6 +1,6 @@
 # Simple Clojure Blog
 
-A simple (and not so DRY) clojure blog for use with a tutorial on http://markgandolfo.com/blog/2014/01/10/a-simple-blog-in-clojure/
+A simple (and not so DRY) clojure blog for use with a tutorial on http://markgandolfo.com/#/article/clojure-blog-tutorial
 
 ## Prerequisites
 
